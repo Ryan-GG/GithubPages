@@ -1,174 +1,249 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Ryan Gross Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+  <head>
+    <title>Ryan Gross Portfolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Sidebar -->
+    <section id="sidebar">
+      <div class="inner">
+        <nav>
+          <ul>
+            <li><a href="#intro">Welcome</a></li>
+            <li><a href="#two">Projects</a></li>
+            <li><a href="#three">Get in touch</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
 
-		<!-- Sidebar -->
-			<section id="sidebar">
-				<div class="inner">
-					<nav>
-						<ul>
-							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#two">Projects</a></li>
-							<li><a href="#three">Get in touch</a></li>
-						</ul>
-					</nav>
-				</div>
-			</section>
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Intro -->
+      <section id="intro" class="wrapper style1 fullscreen fade-up">
+        <div class="inner">
+          <h1>
+            <mark>Hi I'm Ryan,</mark>
+            <div class="circular_image">
+              <img src="images/Ryan_Portrait.png" width="200" height="200" />
+            </div>
+          </h1>
+          <p class="align-left">
+            an inspiring junior software developer. My expertise is in Java,
+            though my knowledge extends into development with Python, React, and
+            SQL.
+          </p>
+          <ul class="actions">
+            <li>
+              <a href="https://github.com/Ryan-GG"
+                ><img src="images/Github.png" width="75" height="75"
+              /></a>
+            </li>
+            <li>
+              <a href="https://leetcode.com/Ryan-GG/"
+                ><img src="images/LeetCode.png" width="75" height="75"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </section>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+      <!-- Two -->
+      <section id="two" class="wrapper style3 fade-up">
+        <div class="inner">
+          <h2>My Projects</h2>
+          <p>
+            This is a showcase of the projects I have created and contributed to
+            throughout my software development experience.
+          </p>
+          <div class="features">
+            <section>
+              <a href="https://github.com/Ryan-GG/Boggle">
+                <span class="icon solid major fa-code-branch"></span>
+              </a>
+              <h3>Boggle</h3>
+              <h4><mark>Technical Stack: Java/Swing</mark></h4>
+              <p>
+                Java's built-in swing classes were used to create a replica of
+                the game Boggle. A Graphical User Interface was designed so that
+                a user could enter inputs into a text field and have them
+                identified by a recursive 2D-array search of the board. From
+                this, the player would then set the game's difficulty and be
+                challenged by the computer at the appropriate setting.
+              </p>
+            </section>
+            <section>
+              <a href="https://github.com/Ryan-GG/Asteroids">
+                <span class="icon solid major fa-code-branch"></span>
+              </a>
+              <h3>Asteroids</h3>
+              <h4><mark>Technical Stack: Java/Swing</mark></h4>
+              <p>
+                Assigned to design a recreation of the game Asteroids. StdDraw
+                libraries were used to generate the Graphical User Interface and
+                on-screen objects. Velocity and collision equations were applied
+                to calculate and render similar characteristics of the original
+                game.
+              </p>
+            </section>
+            <section>
+              <a href="https://github.com/Ryan-GG/MaxFlow_MinCut">
+                <span class="icon solid major fa-code-branch"></span>
+              </a>
+              <h3>Max Cut / Min Flow</h3>
+              <h4><mark>Technical Stack: Python</mark></h4>
+              <p>
+                Python implementation of the Ford-Fulkerson Algorithm. Designed
+                to find the maximum flow in a directed flow graph. By augmenting
+                a residual graph to determine maximum flow for each edge with a
+                Breath-First-Search approach.
+              </p>
+            </section>
+            <section>
+              <a href="https://github.com/Ryan-GG/Acyclic-Detection">
+                <span class="icon solid major fa-code-branch"></span>
+              </a>
+              <h3>Acylic Detection</h3>
+              <h4><mark>Technical Stack: Python</mark></h4>
+              <p>
+                Python implementation to detect cylical direct graphs. Using a
+                vertex clock to determine cycles.
+              </p>
+            </section>
+            <section>
+              <a href="https://github.com/Ryan-GG/OS-Project-4">
+                <span class="icon solid major fa-code-branch"></span>
+              </a>
+              <h3>PintOS</h3>
+              <h4><mark>Technical Stack: C</mark></h4>
+              <p>
+                Collabrative group project involving the implementation on the
+                skeleton frame work of PintOS. Impelemting thread handling,
+                virtual memory, stack queue, and more.
+              </p>
+            </section>
+            <section>
+              <a href="https://github.com/Ryan-GG/GithubPages">
+                <span class="icon solid major fa-code-branch"></span>
+              </a>
+              <h3>Github Pages</h3>
+              <h4><mark>Technical Stack: JavaScript, HTML, CSS</mark></h4>
+              <p>
+                This page, working in html, css, and javascript to implement a
+                working and function online portofolio to showcase my software
+                development skills.
+              </p>
+            </section>
+          </div>
+        </div>
+      </section>
 
-				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner">
-							<h1><mark>Hi I'm Ryan,</mark>
-								<div class="circular_image"><img src="images/Ryan_Portrait.png" width="200" height="200"> </div>
-							</h1>
-							<p class="align-left">an inspiring junior software developer. My expertise is in OOP, though  my knowledge extends into development with Python, React, and SQL. </p>
-							<ul class="actions">
-								<li><a href="https://github.com/Ryan-GG"><img src="images/Github.png" width = "75" height="75"></a></li>
-								<li><a href="https://leetcode.com/Ryan-GG/"><img src="images/LeetCode.png" width = "75" height="75"></a></li>
-						</div>
-					</section>
+      <!-- Three -->
+      <section id="three" class="wrapper style1 fade-up">
+        <div class="inner">
+          <h2>Get in touch</h2>
+          <p>
+            If you want to speak with me about an opportunity or upcoming
+            project of your's let me know down below. I will try to respond as
+            quick as possible.
+          </p>
+          <div class="split style1">
+            <section>
+              <form method="post" action="#">
+                <div class="fields">
+                  <div class="field">
+                    <label for="name">Subject</label>
+                    <input type="text" name="name" id="name" />
+                  </div>
+                  <div class="field">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="5"></textarea>
+                  </div>
+                </div>
+                <ul class="actions">
+                  <li>
+                    <input type="button" onclick="redirect()" value="Message" />
+                  </li>
+                </ul>
+              </form>
+            </section>
+            <section>
+              <ul class="contact">
+                <li>
+                  <h3>Address</h3>
+                  <span
+                    >2555 Thorncroft pl<br />
+                    Herndon, VA 20171<br />
+                    USA</span
+                  >
+                </li>
+                <li>
+                  <h3>Email</h3>
+                  <a href="mailto:ryangross47@gmail.com"
+                    >ryangross47@gmail.com</a
+                  >
+                </li>
+                <li>
+                  <h3>Phone</h3>
+                  <span>(540) 848-6598</span>
+                </li>
+                <li>
+                  <h3>Social</h3>
+                  <ul class="icons">
+                    <li>
+                      <a
+                        href="https://github.com/Ryan-GG"
+                        class="icon brands fa-github"
+                        ><span class="label">GitHub</span></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://leetcode.com/Ryan-GG/"
+                        class="icon solid fa-code"
+                        ><span class="label">LeetCode</span></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/ryan-gross-a7bba819a/"
+                        class="icon brands fa-linkedin-in"
+                        ><span class="label">LinkedIn</span></a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
+    </div>
 
-					
+    <!-- Footer -->
+    <footer id="footer" class="wrapper style1-alt">
+      <div class="inner">
+        <ul class="menu"></ul>
+      </div>
+    </footer>
 
-				
-				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>My Projects</h2>
-							<p>This is a showcase of the projects I have created and contributed to throughout my software development experience.</p>
-							<div class="features">
-								<section>
-									<span class="icon solid major fa-code-branch"></span>
-									<h3>Boggle</h3>
-									<h4><mark>Technical Stack: Java/Spring</mark></h4>
-									<p>Java's built-in swing classes were used to create a replica of the game Boggle. A Graphical User
-										Interface was designed so that a user could enter inputs into a text field and have them identified by a
-										recursive 2D-array search of the board. From this, the player would then set the game's difficulty and be
-										challenged by the computer at the appropriate setting.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-code-branch"></span>
-									<h3>Asteroids</h3>
-									<h4><mark>Technical Stack: Java/Spring</mark></h4>
-									<p>Assigned to design a recreation of the game Asteroids. StdDraw libraries were used to generate the
-										Graphical User Interface and on-screen objects. Velocity and collision equations were applied to
-										calculate and render similar characteristics of the original game.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-code-branch"></span>
-									<h3>Max Cut / Min Flow</h3>
-									<h4><mark>Technical Stack: Python</mark></h4>
-									<p>Python implementation of the Ford-Fulkerson Algorithm. Designed to find the maximum flow in a directed flow graph. 
-										By augmenting a residual graph to determine maximum flow for each edge with a Breath-First-Search approach.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-code-branch"></span>
-									<h3> Acylic Detection</h3>
-									<h4><mark>Technical Stack: Python</mark></h4>
-									<p>Python implementation to detect cylical direct graphs. Using a vertex clock to determine cycles. </p>
-								</section>
-								<section>
-									<span class="icon solid major fa-code-branch"></span>
-									<h3>PintOS</h3>
-									<h4><mark>Technical Stack: C</mark></h4>
-									<p>Collabrative group project involving the implementation on the skeleton frame work of PintOS. Impelemting thread handling, virtual memory, stack queue, and more.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-code-branch"></span>
-									<h3>Github Pages</h3>
-									<h4><mark>Technical Stack: JavaScript, HTML, CSS</mark></h4>
-									<p>This page, working in html, css, and javascript to implement a working and function online portofolio to showcase my software development skills.</p>
-								</section>
-							</div>
-						</div>
-					</section>
-
-				<!-- Three -->
-					<section id="three" class="wrapper style1 fade-up">
-						<div class="inner">
-							<h2>Get in touch</h2>
-							<p>If you want to speak with me about an opportunity or upcoming project of your's let me know down below. I will try to respond as quick as possible.</p>
-							<div class="split style1">
-								<section>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="name">Name</label>
-												<input type="text" name="name" id="name" />
-											</div>
-											<div class="field half">
-												<label for="email">Email</label>
-												<input type="text" name="email" id="email" />
-											</div>
-											<div class="field">
-												<label for="message">Message</label>
-												<textarea name="message" id="message" rows="5"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
-										</ul>
-									</form>
-								</section>
-								<section>
-									<ul class="contact">
-										<li>
-											<h3>Address</h3>
-											<span>2555 Thorncroft pl<br />
-											Herndon, VA 20171<br />
-											USA</span>
-										</li>
-										<li>
-											<h3>Email</h3>
-											<a href="#">ryangross47@gmail.com</a>
-										</li>
-										<li>
-											<h3>Phone</h3>
-											<span>(540) 848-6598</span>
-										</li>
-										<li>
-											<h3>Social</h3>
-											<ul class="icons">
-												<li><a href="https://github.com/Ryan-GG" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="https://leetcode.com/Ryan-GG/" class="icon solid  fa-code"><span class="label">LeetCode</span></a></li>
-												<li><a href="https://www.linkedin.com/in/ryan-gross-a7bba819a/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-											</ul>
-										</li>
-									</ul>
-								</section>
-							</div>
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>Designed By: Ryan Gross </br> Email: ryangross47@gmail.com </br> Phone #: (540)-848-6598</li>
-					</ul>
-				</div>
-			</footer>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/mail.js"></script>
+  </body>
 </html>
