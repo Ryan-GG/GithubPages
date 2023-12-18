@@ -3781,21 +3781,26 @@ input, select, textarea {
 		height: calc(4.75em + 2px);
 		letter-spacing: 0.25em;
 		word-spacing: 1em;
-		line-height: 4.75em;
-		outline: 0;
-		padding: 0 3.75em;
+		line-height: 1.1em;
+		padding: 0.35em 3.75em;
 		position: relative;
-		text-align: center;
-		text-decoration: none;
+		text-align: left;
 		text-transform: uppercase;
-		white-space: nowrap;
+		list-style-type: none;
+}
+
+.sub-git-stage {
+	font-size: 0.6em;
+	font-weight: bold;
+	letter-spacing: 0.25em;
+	margin-left: 2.5px;
 }
 
 .rotate-symbol {
 	 position: relative;
 	 width: 25px;
 	 height: 25px;
-	 top: 7.5px;
+	 top: 12px;
 	 left: 20px;
 	 text-align: center;
 	 filter: invert(48%) sepia(30%) saturate(200%);
